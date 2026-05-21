@@ -22,4 +22,3 @@ jobs:
             git pull origin main
             npm install
             sudo systemctl restart node_vps
-            sudo systemctl status node_vps --no-pager
