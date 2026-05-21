@@ -3,7 +3,11 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("🚀 App deployed via CI/CD | Server | yooo |");
+  res.json({
+    status: "success",
+    message: "Server is running successfully!",
+    date: new Date(),
+  });
 });
 
 app.listen(3000, () => {
