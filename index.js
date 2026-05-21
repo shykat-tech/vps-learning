@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("🚀 App deployed via CI/CD | Server | 2");
+  res.send("🚀 App deployed via CI/CD | Server ");
 });
 
 app.listen(3000, () => {
