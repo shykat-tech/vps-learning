@@ -4,6 +4,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.json({
+    title: "Sapphire",
     status: "success",
     message: "Server is running successfully!",
     date: new Date(),
